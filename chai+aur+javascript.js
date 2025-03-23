@@ -68,3 +68,16 @@
     //alone node env kay andar 
     //console.log(this)karengay toh node env ke waja say empty object aiga wahi agar hum consolle.log (this browsser pr chlaengay toh windo object aiga
     
+
+    // operations
+    console.log("1" + 2 + 3); //123
+    console.log(1 + 2 + "3"); //33 //agar string pehka toh string ban jata he agar number pehka toh number ban jata he
+    console.log("1" + 2 + "3"); //123
+    
+
+    //comparisons
+    console.log(2 < 12); //true
+    console.log("2" == 2); //true //double equal toh value check krta he type check nai krta he or string ko number me convert kr deta he 
+    console.log("2" === 2); //false //triple equal toh value and type dono check krta he 
+
+    
